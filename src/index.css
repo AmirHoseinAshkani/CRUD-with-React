@@ -1,0 +1,32 @@
+@import "primereact/resources/themes/lara-light-cyan/theme.css";
+@import "/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css";
+@import 'primeicons/primeicons.css';
+@font-face {
+  font-family: inter;
+  src: url("../public/Assets/Fonts/Inter/static/Inter_24pt-Medium.ttf")
+    format("ttf");
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+.Users-Page h1 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+.Users-Page .Users-List{
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.Users-Page .Users-List .btn{
+  margin: 0 5px;
+}
