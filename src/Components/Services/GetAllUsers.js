@@ -11,3 +11,4 @@ export default async function getAllUsers(Seter) {
     console.log(error);
   }
 }
+
